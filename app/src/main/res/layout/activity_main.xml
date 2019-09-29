@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Location.EditText"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="168dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Input your location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Location.Button"
+        android:layout_width="56dp"
+        android:layout_height="55dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/Location.EditText"
+        app:layout_constraintStart_toEndOf="@+id/Location.EditText"
+        app:layout_constraintTop_toTopOf="@+id/Location.EditText" />
+
+    <Button
+        android:id="@+id/Get.Result.Button"
+        android:layout_width="134dp"
+        android:layout_height="63dp"
+        android:text="Go find!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857" />
+
+    <Spinner
+        android:id="@+id/FerryDropDown"
+        android:layout_width="276dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="@+id/Location.Button"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="@+id/Location.EditText"
+        app:layout_constraintTop_toBottomOf="@+id/Location.EditText" />
+
+    <EditText
+        android:id="@+id/Date.Text.Edit"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="datetime"
+        android:text="  DD/MM"
+        app:layout_constraintBottom_toBottomOf="@+id/editText3"
+        app:layout_constraintStart_toEndOf="@+id/editText3"
+        app:layout_constraintTop_toTopOf="@+id/editText3" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:text="      Date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

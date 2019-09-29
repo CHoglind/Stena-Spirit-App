@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Stena-Spirit-App</string>
+    <string-array name="Ferrys">
+        <item>Ferry 1</item>
+        <item>Ferry 2</item>
+        <item>Ferry 3</item>
+        <item>Ferry 4</item>
+    </string-array>
+</resources>
